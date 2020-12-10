@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: tomato;
+}
+
+.test {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+.surf-report {
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+}
+
+.led-wall {
+    
+}
