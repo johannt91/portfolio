@@ -20,6 +20,7 @@ header {
     background-color: var(--secondary-color);
     padding: 22px 43px 22px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -252,7 +253,8 @@ header a:hover {
     text-decoration: none;
     color: var(--secondary-color);
     font-size: 1.5vw;
-    padding: 10px 5px;
+    padding: 5px 5px;
+    margin-bottom: 10px;
     border-bottom: 4px solid var(--secondary-color);
 }
 
@@ -261,3 +263,51 @@ header a:hover {
     background-color: var(--secondary-color);
     transition: ease-in .3s;
 }
+
+@media screen and (max-width: 980px) {
+    header {
+        padding: 0 0 20px 0;
+        justify-content: center;
+      }
+    
+      header h1 {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
+        justify-content: center;
+      }
+    
+      header nav ul {
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+      }
+
+      header ul li a {
+          font-size: 1.2vw;
+      }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .grid-item,
+    .grid-item:first-child {
+      grid-column: 1 / -1;
+    }
+  
+    .grid-container {
+      grid-auto-rows: minmax(200px, 1fr);
+    }
+  
+    .hero {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .contact address {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
