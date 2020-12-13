@@ -12,7 +12,7 @@
 
 body {
     background-color: var(--primary-color);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
 }
 
 /* HEADER STYLE START */
@@ -34,7 +34,6 @@ header h1 {
     margin: 0;
     display: flex;
     justify-content: space-between;
-
 }
 
 header a {
@@ -78,7 +77,6 @@ header a:hover {
 }
 
 /* HERO IMAGE */
-
 .hero {
     background-image: url("../images/dust.jpg");
     background-size: cover;
@@ -164,8 +162,6 @@ header a:hover {
 }
 
 /* WORK SECTION STYLE */
-
-
 .grid-container {
     display: grid;
     grid-gap: 15px;
@@ -210,10 +206,6 @@ header a:hover {
     margin: 0px;
 }
 
-
-
-
-
 /* BACKGROUND IMAGES */
 
 .run-buddy {
@@ -223,13 +215,9 @@ header a:hover {
 .coming-soon {
     background-image: url("../images/coming-soon.jpg");
     background-size: contain;
-
-
-
 }
 
 /* CONTACT ME SECTION */
-
 .contact {
     display: flex;
     flex-wrap: wrap;
@@ -264,7 +252,9 @@ header a:hover {
     background-color: var(--secondary-color);
     transition: ease-in .3s;
 }
+/* END OF GENERAL STYLE */
 
+/* MEDIA QUERIES FOR SMALLER SCREENS */
 @media screen and (max-width: 980px) {
     header {
         padding: 0 0 20px 0;
@@ -313,10 +303,12 @@ header a:hover {
         margin-bottom: 20px;
         padding-bottom: 10px;
         text-align: center;
+        justify-content: center;
         font-size: 7vw;
     }
 
 }
+
 
 @media screen and (max-width: 768px) {
     .grid-item,
@@ -339,8 +331,7 @@ header a:hover {
     }
 
     .contact address a{
-        font-size: 2vw;
+        font-size: 4vw;
     }
-
   }
-  
+  /* END OF MEDIA STYLING */
