@@ -114,7 +114,8 @@ header a:hover {
 
 /* ABOUT ME SECTION */
 .container {
-    width: 90%
+    width: 90%;
+    margin: 0 auto 0 auto;
 
 }
 
@@ -270,24 +271,51 @@ header a:hover {
         justify-content: center;
       }
     
-      header h1 {
+    header h1 {
         width: 100%;
         padding: 5px;
         margin-bottom: 10px;
         font-size: 10vw;
         justify-content: center;
-      }
+    }
     
-      header nav ul {
+    header nav ul {
         justify-content: center;
         width: 100%;
         margin-top: 10px;
-      }
+    }
 
-      header ul li a {
-          font-size: 1.2vw;
-      }
+    header nav ul li a{
+        margin: 5px;
+        display: inline-block;
+    }
+
+    .hero div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero h2{
+        font-size: 4.5vw;
+    }
     
+    .info > h2,
+    .info > div {
+        flex: 0 0 100%;
+        justify-content: flex-start;
+        text-align: left;
+        width: 100%;
+    }
+
+    .info > h2 {
+        border-right: none;
+        border-bottom: 4px solid var(--secondary-color);
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 7vw;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -309,5 +337,10 @@ header a:hover {
       flex-direction: column;
       align-items: flex-start;
     }
+
+    .contact address a{
+        font-size: 2vw;
+    }
+
   }
   
