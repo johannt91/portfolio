@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- link to style sheet -->
+    <!-- STYLE SHEET -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>My Portfolio</title>
 </head>
 <body>
     <!-- HEADER SECTION -->
     <header>
-        <h1>Name Here</h1>
+        <h1>Johann Taylor</h1>
         <!-- NAVIGATION LIST -->
         <nav>
             <ul>
@@ -22,7 +22,7 @@
                     <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="#">Contact Me</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
                     <a href="#">Resume</a>
@@ -32,16 +32,22 @@
     </header>
 
 
-        <!-- HERO -->
-        <section class="hero">
-            <div>
-                <h2>Welcome to my Portfolio</h2>
-            </div>
-        </section>
-        <!-- about me section -->
+    <!-- HERO -->
+    
+    <section class="hero">
+        <div>
+            <h2>Welcome to my Portfolio</h2>
+        </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <main class="container">
         <section id="about-me" class="info">
             <h2>About Me</h2>
             <div>
+                <div class="self">
+                    <img src="assets/images/johann.jpg" alt="johann standing at the waterfront" />
+                </div>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laboriosam dolorum dolores fugit dicta unde aliquam qui vitae deserunt reiciendis, veniam repellat a, minus optio eligendi, suscipit alias nesciunt nihil dolor expedita. Voluptatum magnam ut tenetur sunt consequuntur, eum architecto dignissimos sequi temporibus vel similique error officiis iste voluptas, quae aliquid modi delectus laudantium odio voluptate cum neque libero perspiciatis facilis. Rem voluptatum dolor est harum reiciendis iusto, quaerat sapiente, dolorem quidem iste dolore vitae, obcaecati alias minus perspiciatis quod.
                 </p>
@@ -52,48 +58,64 @@
         </section>
 
         
-        <!-- work section -->
+        <!-- WORK SECTION -->
         <section id="work" class="info">
+
             <h2>Work</h2>
-            <div class="surf-report">
+                <div class="grid-container">
 
-            </div>
+                    <a href="https://lernantino.github.io/run-buddy/" class="grid-item run-buddy">
+                        <div>
+                            <h3>Run Buddy</h3>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </a>
 
-            <div class="led-wall">
+                    <a href="#" class="grid-item coming-soon">
+                        <div class="led-wall">
+                            <h3>Led Wall</h3>
+                            <span>Node/IoT</span>
+                        </div>
+                    </a>
 
-            </div>
+                    <a href="#" class="grid-item coming-soon">
+                        <div class="calculator">
+                            <h3>Calculator</h3>
+                            <span>React/JavaScript/CSS</span>
+                        </div>
+                    </a>
 
-            <div class="calculator">
+                    <a href="#" class="grid-item coming-soon">
+                        <div class="surf-report">
+                            <h3>Surf Report</h3>
+                            <span>MERN Stack</span>
+                        </div>
+                    </a>
 
-            </div>
-
-            <div class="pastel-puzzles">
-
-            </div>
-
-            <div class="run-buddy">
-
-            </div>
+                    <a href="#" class="grid-item coming-soon">
+                        <div class="pastel-puzzles">
+                            <h3>Pastel Puzzles</h3>
+                            <span>MERN Stack</span>
+                        </div>
+                    </a>
+                </div>
         </section>
 
 
-        <!-- contact me section -->
+        <!-- CONTACT ME SECTION -->
         <section id="contact-me" class="info">
-            <div>
-                <h1>Contact Me</h1>
-            </div>
-            <address>
-                <a href="">555.555.5555</a>
-                <a href="mailto:j.taylor1343@gmail.com">j.taylor1343@gmail.com</a>
-                <a href="https://github.com/johannt91">GitHub</a>
-                <a href="https://www.youtube.com/channel/UCgjQXtw_dJyZQ8Gmbdq7PYw">YouTube</a>
-                <a href=""></a>
+            
+            <h2>Contact Me</h2>
+            <address class="contact">
+                        <a href="">555.555.5555</a>
+                        <a href="mailto:j.taylor1343@gmail.com">j.taylor1343@gmail.com</a>
+                        <a href="https://github.com/johannt91">GitHub</a>
+                        <a href="https://www.youtube.com/channel/UCgjQXtw_dJyZQ8Gmbdq7PYw">YouTube</a>
+                        <a href="#">LinkedIn</a>
+                    </li>
+                </div>
             </address>
         </section>
-    </body>
-
-    <footer>
-
-    </footer>
+    </main>
 </body>
 </html>
