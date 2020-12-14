@@ -8,6 +8,8 @@ This is a culmination of projects which demonsate the concepts learned during my
 - Media queries
 - Website responsiveness
 
+View my portfolio site here: https://johannt91.github.io/portfolio/
+
 ![Porfolio desktop view](./assets/images/portfolio.png)
 
 ![Portfolio view with max screen width at 980px](./assets/images/portfolio-responsive.png)
