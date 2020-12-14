@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #9BA4AC;
+    --secondary-color: #191919;
+    --tertiary-color: #007C89;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+}
+
+/* HEADER STYLE START */
+header {
+    background-color: var(--secondary-color);
+    padding: 22px 43px 22px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+header h1 {
+    font-weight: bold;
+    font-size: 3.5vw;
+    padding: 3px 15px 3px 90px;
+    color: var(--secondary-color);
+    background-color: var(--tertiary-color);
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+header nav {
+    margin: 7px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav li {
+    display: inline;
+    padding-right: 15px;
+}
+
+
+header nav ul li a {
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-bottom: 4px solid var(--tertiary-color);
+
+}
+
+header a:hover {
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    transition: ease-in .3s; 
+}
+
+/* HERO IMAGE */
+.hero {
+    background-image: url("../images/dust.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    margin-bottom: 45px;
+
+}
+
+.hero div {
+    width: 88%;
+    text-align: right;
+    margin-bottom: 20px;
+
+}
+
+.hero h2 {
+    font-weight: bolder;
+    font-size: 2.3vw;
+    color: var(--secondary-color);
+    background-color: var(--tertiary-color);
+    display: inline-block;
+    padding: 7px;
+    margin-bottom: 15px;
+
+}
+
+/* ABOUT ME SECTION */
+.container {
+    width: 90%;
+    margin: 0 auto 0 auto;
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+
+
