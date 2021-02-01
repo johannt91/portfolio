@@ -212,6 +212,10 @@ header a:hover {
     background-image: url("../images/run-buddy.jpg");
 }
 
+.project1 {
+    background-image: url("../images/refrain-project.png");
+}
+
 .coming-soon {
     background-image: url("../images/coming-soon.jpg");
     background-size: contain;
