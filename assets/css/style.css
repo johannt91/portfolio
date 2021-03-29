@@ -216,6 +216,10 @@ header a:hover {
     background-image: url("../images/refrain-project.png");
 }
 
+.project2 {
+    background-image: url("../images/codersbay.png");
+}
+
 .coming-soon {
     background-image: url("../images/coming-soon.jpg");
     background-size: contain;
